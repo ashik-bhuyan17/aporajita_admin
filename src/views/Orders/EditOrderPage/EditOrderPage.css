@@ -1,0 +1,28 @@
+.order-balance,
+.order-status,
+.order-type {
+  box-sizing: border-box;
+  display: inline-block;
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 12px !important;
+  font-weight: 300;
+  line-height: 11px !important;
+  height: 18px;
+  padding: 3px 6px;
+  font-size: 16px !important;
+}
+
+.order-balance {
+  background-color: #cc3300;
+}
+
+.order-status {
+  background-color: #3c763d;
+}
+
+.order-type {
+  background-color: #777;
+}

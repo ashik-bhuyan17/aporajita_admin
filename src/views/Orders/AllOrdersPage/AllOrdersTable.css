@@ -1,0 +1,64 @@
+.fulfilment-label {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: sans-serif;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-sizing: border-box;
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+  background-color: #999;
+}
+
+.status-label {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  font-family: sans-serif;
+  border-collapse: separate;
+  border-spacing: 0;
+  box-sizing: border-box;
+  display: inline;
+  padding: 0.2em 0.6em 0.3em;
+  font-size: 75%;
+  line-height: 1;
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25em;
+}
+
+.orders-rejected {
+  background-color: #f25656;
+}
+
+.orders-shipped {
+  background-color: #22baa0;
+}
+
+.orders-accepted {
+  background-color: #3c763d;
+}
+
+.wraper {
+  position: relative;
+}
+
+.backgroundIcon {
+  position: relative;
+  z-index: 2;
+}
+
+.foregroundIcon {
+  position: absolute;
+  z-index: 3;
+}

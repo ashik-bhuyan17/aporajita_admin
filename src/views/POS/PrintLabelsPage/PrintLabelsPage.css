@@ -1,0 +1,11 @@
+@media screen {
+  .printable {
+    display: none;
+  }
+  .printable-content {
+    display: none;
+  }
+  .non-printable {
+    display: block;
+  }
+}

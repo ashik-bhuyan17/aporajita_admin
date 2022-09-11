@@ -1,0 +1,145 @@
+.sidebar-item-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.sidebar-title {
+  font-size: 15px;
+  font-family: Montserrat, serif;
+  font-weight: 500;
+  color: var(--sidebar-text-color);
+}
+
+.sidebar-title-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 189px;
+  margin-left: 10px;
+}
+
+.feather-icon {
+  height: 18px;
+  margin: 0px 7px 0px 0px;
+  min-width: 24px;
+}
+
+.feather-icon-dropdown {
+  height: 16px;
+  width: auto;
+}
+
+.sms-remaining-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 10px;
+  color: var(--sms-remaining-text-color);
+  font-weight: 600;
+}
+
+.sms-remaining-container .feather-icon {
+  height: 17px;
+  color: var(--sms-remaining-text-color);
+  margin-left: -3px;
+  margin-right: 0px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+}
+
+#sidebar {
+  min-width: 200px;
+  max-width: 200px;
+  background: var(--sidebar-background-color);
+  color: var(--light-grey-color);
+  height: calc(100vh);
+  position: sticky;
+  top: 0;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+#sidebar::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+.sidebar-collapse {
+  background-color: #151c30 !important;
+}
+
+#sidebar.active {
+  margin-left: -200px;
+}
+
+#sidebar .sidebar-header {
+  padding: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sidebar-text-logo {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  color: var(--primary-color);
+}
+
+#sidebar ul.components {
+  padding: 0px 0px 13px 0px;
+  border-bottom: 1px solid #47748b;
+  margin-top: 16px;
+}
+
+#sidebar ul p {
+  color: #fff;
+  padding: 10px;
+}
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  display: block;
+}
+
+#sidebar ul li a:hover {
+  color: var(--sidebar-background-color);
+  background-color: var(--primary-color);
+}
+
+#sidebar ul li.active > a,
+a[aria-expanded='true'] {
+  color: #fff;
+}
+
+.sidebar-collapse a {
+  font-size: 13px !important;
+  padding-left: 30px !important;
+}
+
+a[data-toggle='collapse'] {
+  position: relative;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+a[aria-expanded='true'] > div > div > svg.feather-icon-dropdown.up {
+  display: none;
+}
+
+a[aria-expanded='false'] > div > div > svg.feather-icon-dropdown.down {
+  display: none;
+}

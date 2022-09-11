@@ -1,0 +1,14 @@
+/*bulkorder*/
+  
+.App{
+    width : 87%;
+}
+  .table_contain{
+    overflow-x:auto;;
+    height: 400px;
+    border: 1px solid gray;  
+  }
+  
+ 
+
+  
